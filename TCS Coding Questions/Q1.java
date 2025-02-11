@@ -1,5 +1,6 @@
 /* Q1: Find the Smallest element in an array. */
 /* Time Complexity --> O(n) */
+
 public class Q1 {
 
     static int smallestNumber(int[] arr) {
