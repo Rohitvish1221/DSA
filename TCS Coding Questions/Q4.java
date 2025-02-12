@@ -18,3 +18,4 @@ public class Q4 {
     }
 }
 /* Another Method --> Collections.reverse(Arrays.asList(arr)) */
+/* Another login is to Devide array in 2 parts and flip the each right element to left element */
