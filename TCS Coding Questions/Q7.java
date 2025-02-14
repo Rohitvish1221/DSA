@@ -13,9 +13,9 @@ public class Q7 {
 
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
-            temp+= arr[i];
+            temp += arr[i];
         }
-        double ans = temp/size;
+        double ans = temp / size;
 
         System.out.println("Average : " + ans);
     }
