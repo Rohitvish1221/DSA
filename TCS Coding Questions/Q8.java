@@ -1,22 +1,22 @@
-/* Q8: Rotate array by K elements - Block Swap Algorithm */
+/* Q8: Average of all elements in an array */
 /* Time Complexity --> O(n) */
 
+import java.util.Scanner;
+
 public class Q8 {
-
-    static void rotateArray(int[] arr, int n, int k) {
-        int[] ans = new int[n];
-        System.out.println("After Rotating the array: ");
-        for (int i = 0; i < n; i++) {
-            /* Blockswap Algorithm */
-            ans[i] = arr[(i + k) % n];
-            System.out.println(ans[i]);
-        }
-    }
-
     public static void main(String[] args) {
-        int arr[] = { 22, 4, 6, 11, 15 };
-        int len = arr.length;
-        int k = 2;
-        rotateArray(arr, len, k);
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Size of Array : ");
+        int size = sc.nextInt();
+        int temp = 0;
+        int arr[] = new int[size];
+
+        for (int i = 0; i < size; i++) {
+            arr[i] = sc.nextInt();
+            temp += arr[i];
+        }
+        double ans = (double)temp / size;
+
+        System.out.println("Average : " + ans);
     }
 }
