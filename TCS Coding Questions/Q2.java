@@ -11,6 +11,6 @@ public class Q2 {
 
     public static void main(String[] args) {
         int arr[] = { 22, 4, 6, 11, 15 };
-        System.out.println("Smallest Number : " + largestNumber(arr));
+        System.out.println("Largest Number : " + largestNumber(arr));
     }
 }
