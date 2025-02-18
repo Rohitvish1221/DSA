@@ -19,3 +19,4 @@ public class Q8 {
         System.out.println("Average : " + ans);
     }
 }
+
