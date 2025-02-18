@@ -31,3 +31,4 @@ public class Q6 {
         changeOrder(arr, size);
     }
 }
+
