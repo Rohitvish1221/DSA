@@ -25,8 +25,7 @@ public class Q11 {
             arr[i] = sc.nextInt();
         }
         int ans = removeDuplicates(arr, size);
-        System.out.println(ans);
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < ans; i++) {
             System.out.print(arr[i] + " ");
         }
     }
