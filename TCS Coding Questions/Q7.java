@@ -18,3 +18,4 @@ public class Q7 {
         System.out.println("Sum : " + temp);
     }
 }
+
