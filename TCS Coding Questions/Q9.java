@@ -7,7 +7,9 @@ public class Q9 {
         int[] ans = new int[n];
         System.out.println("After Rotating the array: ");
         for (int i = 0; i < n; i++) {
+
             /* Blockswap Algorithm */
+            
             ans[i] = arr[(i + k) % n];
             System.out.println(ans[i]);
         }

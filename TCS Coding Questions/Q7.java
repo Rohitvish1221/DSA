@@ -1,4 +1,4 @@
-/* Q7: Average of all elements in an array */
+/* Q7: Calculate sum of the elements of the array */
 /* Time Complexity --> O(n) */
 
 import java.util.Scanner;
@@ -15,7 +15,6 @@ public class Q7 {
             arr[i] = sc.nextInt();
             temp += arr[i];
         }
-        double ans = temp / size;
-        System.out.println("Average : " + ans);
+        System.out.println("Sum : " + temp);
     }
 }

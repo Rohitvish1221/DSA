@@ -16,7 +16,6 @@ public class Q8 {
             temp += arr[i];
         }
         double ans = (double)temp / size;
-
         System.out.println("Average : " + ans);
     }
 }
