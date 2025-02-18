@@ -8,7 +8,6 @@ public class Q12 {
     static int removeDuplicates(int[] arr, int n) {
 
         int count = 0;
-
         int mark[] = new int[n];
         for (int i = 0; i < n; i++) {
             mark[i] = 1;
