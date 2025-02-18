@@ -1,4 +1,4 @@
-/* Q12: Remove duplicates from a sorted array */
+/* Q12: Remove duplicates from a unsorted array */
 /* Time Complexity --> O(n^2) */
 
 import java.util.Scanner;
