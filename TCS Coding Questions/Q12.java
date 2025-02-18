@@ -50,7 +50,7 @@ public class Q12 {
 }
 
 /*
- * Time Complexity --> O(n^2) [By using HashTable]
+ * Time Complexity --> O(n) [By using HashTable]
  * 
  * import java.util.*;
  * 
