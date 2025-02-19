@@ -22,6 +22,12 @@ Constraints:
 1<=N<=50
 First input- Accept string that contains character a and b only
 Second input- Accept value for N(Positive integer number) */
+s
+f
+dsf
+ds
+fds
+f
 
 public class Q7 {
     public static void main(String[] args) {
