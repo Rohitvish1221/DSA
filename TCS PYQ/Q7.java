@@ -23,8 +23,27 @@ Constraints:
 First input- Accept string that contains character a and b only
 Second input- Accept value for N(Positive integer number) */
 
+import java.util.Scanner;
+
 public class Q7 {
     public static void main(String[] args) {
-        
+
+        Scanner sc = new Scanner(System.in);
+        String str = sc.next();
+        int L = sc.nextInt();
+        int i = 0, countA = 0, max = Integer.MIN_VALUE;
+
+        while (i < str.length()) {
+            if (str.charAt(i) == 'a') {
+                countA++;
+            }
+            if ((i + 1) % L == 0) {
+                if (countA > max)
+                    max = countA;
+                countA = 0;
+            }
+            i++;
+        }
+        System.out.println(max);
     }
 }
