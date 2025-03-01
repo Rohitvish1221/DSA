@@ -25,6 +25,8 @@ Second input- Accept value for N(Positive integer number) */
 
 import java.util.Scanner;
 
+/* Time Complexity: O(logn) */
+
 public class Q7 {
     public static void main(String[] args) {
 
